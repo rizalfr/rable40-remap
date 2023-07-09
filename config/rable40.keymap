@@ -28,7 +28,7 @@
 
         mod_layer {
             bindings = <
-&bootloader  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &bt BT_CLR  &trans  &out OUT_USB  &out OUT_BLE  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &trans  &ext_power EP_ON  &trans  &ext_power EP_OFF  &ext_power EP_TOG  &trans  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &bt BT_CLR  &trans  &out OUT_USB  &out OUT_BLE  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp RIGHT_ARROW  &trans  &trans  &ext_power EP_ON  &trans  &ext_power EP_OFF  &ext_power EP_TOG  &trans  &trans  &trans  &trans  &kp DOWN_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
