@@ -10,6 +10,17 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    behaviors {
+        td0: td0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD0";
+            #binding-cells = <0>;
+            bindings =
+                <&mo 3>,
+                <&mo 4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
